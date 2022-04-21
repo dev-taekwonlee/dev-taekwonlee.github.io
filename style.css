@@ -1,4 +1,13 @@
-.profile-img{background-image:url("/images/santiago.jpeg") center
+#nanumPenFont{
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 150%;
+}
+#juaFont{
+	font-family: 'Jua', sans-serif;
+}
+#squarePeg{
+	font-family: 'Square Peg', cursive;
+}
 
 .color-primaryBackground {
 	color:rgb(47, 109, 74);
