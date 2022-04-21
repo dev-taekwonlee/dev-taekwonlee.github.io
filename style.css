@@ -1,0 +1,15 @@
+.profile-img{background-image:url("/images/santiago.jpeg") center
+
+.color-primaryBackground {
+	color:rgb(47, 109, 74);
+}
+
+.graygreen {
+	background-color: rgba(4, 58, 4, 0.758);
+	width: 200px;
+	height: 120px;
+}
+
+.font-50 {
+	font-size: 50px;
+}
