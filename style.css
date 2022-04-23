@@ -1,12 +1,58 @@
-#nanumPenFont{
-	font-family: 'Nanum Pen Script', cursive;
-	font-size: 150%;
+body {
+	font-family: 'Nanum Gothic Coding', monospace;
+	background-color: rgb(48, 111, 148)
 }
-#juaFont{
-	font-family: 'Jua', sans-serif;
+
+.container {
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color : rgb(250,250,250,0.9);
 }
-#squarePeg{
-	font-family: 'Square Peg', cursive;
+
+.introduce-side-1 {
+    flex : 3;
+    margin-left: 50px;
+}
+.introduce-side-2{
+    flex : 2;
+    margin-left: 50px;
+}
+
+.photo-side {
+    flex : 3;
+    width : 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    margin : 10px;
+    margin-left: 50px;
+}
+
+.p-heading-1 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.p-heading-2 {
+    font-weight: 600;
+    font-size : 20px;
+}
+.p-heading-3 {
+    font-weight: 600;
+    font-size : 15px;
+}
+.p-bold {
+    font-weight: 600;
+}
+
+.hashtag {
+    color : #aad0d9;
+    text-decoration: none;
 }
 
 .color-primaryBackground {
@@ -19,6 +65,14 @@
 	height: 120px;
 }
 
-.font-50 {
-	font-size: 50px;
+/* font */
+.jua{
+	font-family: 'Jua', sans-serif;
+}
+.squarePeg{
+	font-family: 'Square Peg', cursive;
+}
+
+.gugi{
+	font-family: 'Gugi', cursive;
 }
