@@ -1,6 +1,5 @@
 let target = document.querySelector("#dynamic");
 
-
 function randomString() {
 	let stringArr= ["이태권입니다.", "반갑습니다!", "저는 위코드 34기입니다.", "저는 국사학을 전공했어요!", "저는 여행을 좋아해요.", "저는 녹차를 좋아해요.", "저는 영화를 좋아해요."];
 	let selectString = stringArr[Math.floor(Math.random() * stringArr.length)];
